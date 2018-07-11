@@ -1,0 +1,6 @@
+map:
+  image: /home/wangqing/nav_custom/maze_small.png
+  resolution: 0.010000
+  origin: [0.0, 0.0, -0.5236]
+  occupied_thresh: 10
+  free_thresh: 100

@@ -1,0 +1,15 @@
+#ifndef ASTAR_WRAPPER_HPP
+#define ASTAR_WRAPPER_HPP
+
+class PosPoint
+{
+public:
+    float x;
+    float y;
+
+    PosPoint(float i, float j) : x(i), y(j){}
+};
+
+bool generatePath(int start, int end, std::vector<PosPoint>& map);
+
+#endif

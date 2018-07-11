@@ -1,0 +1,5 @@
+image: /home/wangqing/nav_custom/maze_small.png
+resolution: 0.050000
+origin: [0.0, 0.0, 0.0]	# x, y, yaw
+occupied_thresh: 10
+free_thresh: 200
