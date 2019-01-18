@@ -10,8 +10,8 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 link_directories(${OpenCV_LIB_DIR})
 
 # Use yaml-cpp package
-link_directories(/home/wangqing/yaml-cpp/build)
-include_directories(/home/wangqing/yaml-cpp/include)
+link_directories(yaml-cpp/build)
+include_directories(yaml-cpp/include)
 
 
 # find_package(Eigen3 REQUIRED)
