@@ -1,7 +1,0 @@
-#ifndef ASTAR_HPP
-#define ASTAR_HPP
-
-bool astar(onst float* weights, const int height, const int width,
-              const int start, const int goal,
-                    int* paths);
-#endif
