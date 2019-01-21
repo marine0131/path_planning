@@ -19,8 +19,8 @@ include_directories(yaml-cpp/include)
 # include_directories( "/usr/include/eigen3" )
  
 # 
-ADD_EXECUTABLE( mat_test cvmat_test.cpp )
-TARGET_LINK_LIBRARIES( mat_test ${OpenCV_LIBS} ) 
+# ADD_EXECUTABLE( mat_test cvmat_test.cpp )
+# TARGET_LINK_LIBRARIES( mat_test ${OpenCV_LIBS} ) 
 
 ADD_EXECUTABLE( astar_test src/astar.cpp src/astar_wrapper.cpp src/path_tracking.cpp)
 TARGET_LINK_LIBRARIES( astar_test yaml-cpp ${OpenCV_LIBS} )
