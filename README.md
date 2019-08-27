@@ -1,7 +1,7 @@
 # path_planning
 A* path planning
 
-##dependencies
+## dependencies
 
  opencv 2.4
  
