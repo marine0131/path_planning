@@ -1,5 +1,5 @@
 # path_planning
-A* path planning
+A* path planning, find a path in image maze
 
 ## dependencies
 
